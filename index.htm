@@ -17,6 +17,9 @@
   <!--Open Sans google font -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
+  <!--Font Awesome CDN -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"\>
+
 
 <style>
 
@@ -182,13 +185,45 @@ img.logo {
 
 
 .footerBg {
-  background-color:#83b7cc;
+  background-color:#d2dfe4;
 }
 
 .footerLogo {
-  width:240px;
+  width:290px;
 }
 
+
+footer .container .row .col div i {
+  width:30px;
+  font-size: 23px;
+  padding: 14px 0 0 0px;
+
+}
+
+footer .container .row .col a {
+  width:240px;
+  display:inline-block;
+  color:#336699;
+  padding:6px 0 0 14px;
+}
+
+
+footer .container .row .col div {
+  font-size: 1.3rem;
+  color: rgb(94, 94, 95);
+}
+
+ul li a.footTxt {
+  line-height: 1.6;
+  color: rgb(94, 94, 95);
+}
+
+.footerTitle {
+  font-size: 1.1rem;
+  border-bottom: 1px solid #ccc;
+  padding:14px 0 6px;
+  margin: 0 0 10px 0;
+}
 
 </style>
 
@@ -388,30 +423,42 @@ img.logo {
 
 
 
-        <footer class="page-footer" style="background-color: #afc0cc">
+        <footer class="page-footer" style="background-color: #d3dadf88">
           <div class="container">
             <div class="row">
-              <div class="col l6 s12">
+              <div class="col l4 m4 s12">
                 <img src="img/logo_cymetics.png" class="footerLogo">
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                <p class="footerContact">
+                  <div><i class="fa fa-phone-square 2x" aria-hidden="true"></i> +1-408-396-6570</div>
+                  <div><i class="fa fa-envelope-o" aria-hidden="true"></i> info@cymetrixsoft.com</div>
+
+</p>
               </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
+              <div class="col l2 m2 s12"><br><br><br>
                 <ul>
-                  <li>
-                    <a class="grey-text text-lighten-3" href="#!">Link 1</a>
-                  </li>
-                  <li>
-                    <a class="grey-text text-lighten-3" href="#!">Link 2</a>
-                  </li>
-                  <li>
-                    <a class="grey-text text-lighten-3" href="#!">Link 3</a>
-                  </li>
-                  <li>
-                    <a class="grey-text text-lighten-3" href="#!">Link 4</a>
-                  </li>
+                  <li><a class="footTxt" href="#!">Home</a></li>
+                  <li><a class="footTxt" href="#!">About Cymetrix</a></li>
+                  <li><a class="footTxt" href="#!">Our Success Stories</a></li>
+                  <li><a class="footTxt" href="#!">Blog</a></li>
+                  <li><a class="footTxt" href="#!">Contact Us</a></li>
                 </ul>
               </div>
+
+
+                <div class="col l6 m2 s12"><br><br><br>
+                <div class="footerTitle">Salesforce Services</div>
+                  <a class="footTxt" href="#!">Implementation</a>
+                  <a class="footTxt" href="#!">Integration</a>
+                  <a class="footTxt" href="#!">Customization</a>
+                  <a class="footTxt" href="#!">Support and Maintenance</a>
+                  <a class="footTxt" href="#!">Force.com Developement</a>
+                  <a class="footTxt" href="#!">Force.com Developement</a>
+                </ul>
+              </div>
+
+
+
+
             </div>
           </div>
           <div class="footer-copyright">
