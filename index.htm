@@ -107,7 +107,7 @@ img.imgHero {
 
 .bg_color{
   background-color: #fff;
-  padding:60px 0px;
+  padding:60px 0px 50px 0px;
   font-family: arial, Verdana, sans-serif;
 }
 
@@ -131,13 +131,27 @@ img.imgHero {
 
 .alt_color{
   background-color: #dee3ee;
-  padding:60px 0px;
+  padding:60px 0px 50px 0px;
 }
 
 img.logo {
   padding:8px 0 0 10px;
   /* width:90%; */
 }
+
+img.parnterLogo {
+  display:block;
+  margin:auto;
+}
+  @media screen and (max-width:670px){
+    img.parnterLogo{
+      width:260px;
+      padding:4 0;
+      margin:4 0;
+    }
+  }
+
+
 
 .sectionTitle {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
@@ -164,6 +178,11 @@ img.logo {
   line-height: 1.5;
   color:#7e7e7e;
   padding: 0 0 10px;
+}
+.cardTitleTxt {
+  font-size:1.2rem !important;
+  line-height: 1;
+  color:#7e7e7e;
 }
 
 .cardImg {
@@ -397,10 +416,45 @@ ul li a.footTxt {
 
 
 <div class="bg_color">
+
+<div class="row">
+  <div class="container">
+
   <div class="container">
     <div class="sectionTitle">From Our Blogs</div>
     <p class="subHead">We share our experiences, expertise, achievements and industry best practices on our blog</p>
   </div>
+
+  <div class="col s12 m6 l4">
+    <div class="card z-depth-3">
+      <div class="card-image"><img src="img/blog_01.png"></div>
+      <div class="card-content">
+        <span class="card-title cardTitleTxt">Cymetrix listed in ‘20 Most Promising Salesforce Solution</span>
+      </div>
+    </div>
+  </div>
+  <div class="col s12 m6 l4">
+    <div class="card z-depth-3">
+      <div class="card-image"><img src="img/blog_02.png"></div>
+      <div class="card-content">
+        <span class="card-title cardTitleTxt">Cymetrix listed in ‘20 Most Promising Salesforce Solution</span>
+      </div>
+    </div>
+  </div>
+  <div class="col s12 m6 l4">
+    <div class="card z-depth-3">
+      <div class="card-image"><img src="img/blog_03.png"></div>
+      <div class="card-content">
+        <span class="card-title cardTitleTxt">Cymetrix listed in ‘20 Most Promising Salesforce Solution</span>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+</div>
+
 </div>
 
 
@@ -409,6 +463,24 @@ ul li a.footTxt {
   <div class="container">
     <div class="sectionTitle">Our Technology Partners</div>
     <p class="subHead">We have partnerd with the industry leaders to bring you the best</p>
+
+
+    <div class="row">
+      <div class="col s12 m6 l4"><img src="img/logo_salesforce.png" class="parnterLogo"></div>
+      <div class="col s12 m6 l4"><img src="img/logo_jaggaer.png" class="parnterLogo"></div>
+      <div class="col s12 m6 l4"><img src="img/logo_looker.png" class="parnterLogo"></div>
+    </div>
+
+    <div class="row">
+      <div class="col s12 m6 l4"><img src="img/logo_keka.png" class="parnterLogo"></div>
+      <div class="col s12 m6 l4"><img src="img/logo_mobijini.png" class="parnterLogo"></div>
+      <div class="col s12 m6 l4"><img src="img/logo_git.png" class="parnterLogo"></div>
+    </div>
+  </div>
+
+
+
+
   </div>
 </div>
 
@@ -436,23 +508,23 @@ ul li a.footTxt {
               </div>
               <div class="col l2 m2 s12"><br><br><br>
                 <ul>
-                  <li><a class="footTxt" href="#!">Home</a></li>
-                  <li><a class="footTxt" href="#!">About Cymetrix</a></li>
-                  <li><a class="footTxt" href="#!">Our Success Stories</a></li>
-                  <li><a class="footTxt" href="#!">Blog</a></li>
-                  <li><a class="footTxt" href="#!">Contact Us</a></li>
+                  <li><a class="footTxt" href="#">Home</a></li>
+                  <li><a class="footTxt" href="#">About Cymetrix</a></li>
+                  <li><a class="footTxt" href="#">Our Success Stories</a></li>
+                  <li><a class="footTxt" href="#">Blog</a></li>
+                  <li><a class="footTxt" href="#">Contact Us</a></li>
                 </ul>
               </div>
 
 
                 <div class="col l6 m2 s12"><br><br><br>
                 <div class="footerTitle">Salesforce Services</div>
-                  <a class="footTxt" href="#!">Implementation</a>
-                  <a class="footTxt" href="#!">Integration</a>
-                  <a class="footTxt" href="#!">Customization</a>
-                  <a class="footTxt" href="#!">Support and Maintenance</a>
-                  <a class="footTxt" href="#!">Force.com Developement</a>
-                  <a class="footTxt" href="#!">Force.com Developement</a>
+                  <a class="footTxt" href="#">Implementation</a>
+                  <a class="footTxt" href="#">Integration</a>
+                  <a class="footTxt" href="#">Customization</a>
+                  <a class="footTxt" href="#">Support and Maintenance</a>
+                  <a class="footTxt" href="#">Force.com Developement</a>
+                  <a class="footTxt" href="#">Force.com Developement</a>
                 </ul>
               </div>
 
