@@ -20,6 +20,12 @@
 
 <style>
 
+@media screen and (min-width:1000px){
+nav.navHeight {
+  height:80px;
+}
+}
+
 img {
   max-width:100%;
 }
@@ -27,6 +33,15 @@ img {
 .menuIcon {
   color:#336699;
 }
+
+img.mobileMenu {
+  display:block;
+  margin:auto;
+  padding:20px 0 20px 0;
+  width:80%;
+
+}
+
 
   header {
     background: url(img/hero_03a.jpg);
@@ -118,7 +133,7 @@ img.imgHero {
 
 img.logo {
   padding:8px 0 0 10px;
-  width:80%;
+  /* width:90%; */
 }
 
 .sectionTitle {
@@ -166,9 +181,15 @@ img.logo {
   }
 
 
-footerBg {
-  background-color:#dfe8ef;
+.footerBg {
+  background-color:#83b7cc;
 }
+
+.footerLogo {
+  width:240px;
+}
+
+
 </style>
 
 </head>
@@ -177,7 +198,7 @@ footerBg {
 
 <header>
 
-<nav class="nav-wraper black-text z-depth-0">
+<nav class="nav-wraper black-text z-depth-0 navHeight">
   <div class="container">
 
     <a href="#" class="brand-logo"><img class="logo" src="img/logo_cymetics.png"></a>
@@ -226,6 +247,7 @@ footerBg {
 
   <!-- for small screens -->
   <ul class="sidenav" id="mobile-links">
+    <li><img src="img/logo_cymetics.png" class="mobileMenu"></li>
     <li><a href="#">Home</a></li>
     <li><a href="#">Services</a></li>
     <li><a href="#">Capabilities</a></li>
@@ -370,7 +392,7 @@ footerBg {
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
-                <img src="img/logo_cymetics.png">
+                <img src="img/logo_cymetics.png" class="footerLogo">
                 <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
               </div>
               <div class="col l4 offset-l2 s12">
