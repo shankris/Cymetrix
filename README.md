@@ -1,2 +1,2 @@
-<p align="center">Cymetrix Design
+<p align="center">Cymetrix Website Design
 </p>
