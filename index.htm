@@ -245,6 +245,69 @@ ul li a.footTxt {
   margin: 0 0 10px 0;
 }
 
+
+
+<!-- Carousel styles-->
+
+.middle-indicator{
+   position:absolute;
+   top:50%;
+   }
+  .middle-indicator-text{
+   font-size: 4.2rem;
+  }
+  a.middle-indicator-text{
+    color:white !important;
+  }
+.content-indicator{
+    width: 64px;
+    height: 64px;
+    background: none;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px; 
+  }
+    .indicators{
+  	/* visibility: hidden; */
+  }
+
+.sliderBg1
+  {
+    background-color:#92a5b8;
+  }
+
+.sliderBg2
+  {
+    background-color:#77aed8;
+  }
+
+.userPic { font-size: 12rem;}
+.userName { font-size: 2rem;}
+.userRole { font-size:1rem;}
+
+.userTxt {
+  text-align:left;
+  max-width: 60%;
+}
+
+.quoteTitle {
+  font-family: 'open sans', Arial, Helvetica, sans-serif;
+  font-size:1.8em;
+  font-weight:600;
+  display:block;
+  text-align:left;
+}
+.quote {
+  text-align:left;
+  font-size:1.1rem;
+  line-height: 1.3;
+  font-weight: 400;
+  display:block;  
+}
+
+}
+
+
 </style>
 
 </head>
@@ -412,6 +475,94 @@ ul li a.footTxt {
   <div class="container">
     <div class="sectionTitle">Client Testimonials</div>
     <p class="subHead">We believe we can help your business grow. But don’t just take our word for it. Read what our clients say about us.</p>
+
+
+
+      <div class="carousel carousel-slider center " data-indicators="true">
+        <div class="carousel-fixed-item center middle-indicator">
+          <div class="left">
+            <a href="Previo" class="movePrevCarousel middle-indicator-text waves-effect waves-light content-indicator">
+              <i class="material-icons left  middle-indicator-text">chevron_left</i>
+            </a>
+          </div>
+      
+          <div class="right">
+            <a href="Siguiente" class=" moveNextCarousel middle-indicator-text waves-effect waves-light content-indicator">
+              <i class="material-icons right middle-indicator-text">chevron_right</i>
+            </a>
+          </div>
+        </div>
+
+
+
+    <div class="carousel-item sliderBg1 white-text" href="#one!">
+            <div class="row">
+                <div class="col s12 m4 l4">
+                  <div class="userPic"><i class="fa fa-user-circle"></i></div>
+                  <div class="userName">John Doe</div>
+                  <div class="userRole">CEO</div>
+                </div>
+                <div class="col s12 m8 l8">
+                  <br><br><br><br>
+                  <span class="quoteTitle">Gurus of Salesforce Implemntation</span><br>
+                  <span class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ad obcaecati aliquid ratione dolore blanditiis natus optio dolorem harum maxime cum aperiam ipsam accusamus, illum praesentium numquam tempora reiciendis sit quasi adipisci nihil aut! Expedita aperiam aliquid modi aut alias!
+                  </span>
+                </div>
+              </div>
+    </div>
+    
+    <div class="carousel-item sliderBg2 white-text" href="#two!">
+            <div class="row">
+                <div class="col s12 m4 l4">
+                  <div class="userPic"><i class="fa fa-user-circle"></i></div>
+                  <div class="userName">John Doe</div>
+                  <div class="userRole">CEO</div>
+                </div>
+                <div class="col s12 m8 l8">
+                  <br><br><br><br>
+                  <span class="quoteTitle">Gurus of Salesforce Implemntation</span><br>
+                  <span class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ad obcaecati aliquid ratione dolore blanditiis natus optio dolorem harum maxime cum aperiam ipsam accusamus, illum praesentium numquam tempora reiciendis sit quasi adipisci nihil aut! Expedita aperiam aliquid modi aut alias!
+                  </span>
+                </div>
+              </div>
+    </div>
+    
+    <div class="carousel-item sliderBg1 white-text" href="#three!">
+            <div class="row">
+                <div class="col s12 m4 l4">
+                  <div class="userPic"><i class="fa fa-user-circle"></i></div>
+                  <div class="userName">John Doe</div>
+                  <div class="userRole">CEO</div>
+                </div>
+                <div class="col s12 m8 l8">
+                  <br><br><br><br>
+                  <span class="quoteTitle">Gurus of Salesforce Implemntation</span><br>
+                  <span class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ad obcaecati aliquid ratione dolore blanditiis natus optio dolorem harum maxime cum aperiam ipsam accusamus, illum praesentium numquam tempora reiciendis sit quasi adipisci nihil aut! Expedita aperiam aliquid modi aut alias!
+                  </span>
+                </div>
+              </div>
+    </div>
+    
+    <div class="carousel-item sliderBg2 white-text" href="#four!">
+            <div class="row">
+                <div class="col s12 m4 l4">
+                  <div class="userPic"><i class="fa fa-user-circle"></i></div>
+                  <div class="userName">John Doe</div>
+                  <div class="userRole">CEO</div>
+                </div>
+                <div class="col s12 m8 l8">
+                  <br><br><br><br>
+                  <span class="quoteTitle">Gurus of Salesforce Implemntation</span><br>
+                  <span class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ad obcaecati aliquid ratione dolore blanditiis natus optio dolorem harum maxime cum aperiam ipsam accusamus, illum praesentium numquam tempora reiciendis sit quasi adipisci nihil aut! Expedita aperiam aliquid modi aut alias!
+                  </span>
+                </div>
+              </div>
+    </div>
+    </div>
+
+
+
+
   </div>
 </div>
 
@@ -553,7 +704,32 @@ ul li a.footTxt {
   $(document).ready(function () {
     $('.sidenav').sidenav();
   })
-</script>
+
+            // start carrousel
+            $('.carousel.carousel-slider').carousel({
+              fullWidth: true,
+              indicators: true
+            });
+
+          setInterval(function () {
+            $('.carousel').carousel('next');
+          }, 5000);
+
+          // move next carousel
+          $('.moveNextCarousel').click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            $('.carousel').carousel('next');
+          });
+
+          // move prev carousel
+          $('.movePrevCarousel').click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            $('.carousel').carousel('prev');
+          });
+
+        </script>
 
 
 </body>
