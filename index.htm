@@ -284,29 +284,60 @@ ul li a.footTxt {
 .userPic { font-size: 12rem;}
 .userName { font-size: 2rem;}
 .userRole { font-size:1rem;}
+  @media screen and (max-width:670px){
 
-.userTxt {
-  text-align:left;
-  max-width: 60%;
-}
+.userPic { font-size: 4rem;}
+.userName { font-size: 1.2rem;}
+.userRole { font-size:1rem;}
+
+  }
 
 .quoteTitle {
   font-family: 'open sans', Arial, Helvetica, sans-serif;
-  font-size:1.8em;
+  font-size:1.2em;
   font-weight:600;
   display:block;
+  margin:auto;
+  line-height: 1.2;
   text-align:left;
+  max-width: 70%;
+  padding: 20px 0 0 0;
 }
 .quote {
   text-align:left;
-  font-size:1.1rem;
-  line-height: 1.3;
+  font-size:1rem;
+  line-height: 1.2;
   font-weight: 400;
   display:block;  
+  max-width: 70%;
+  margin:auto;
 }
 
+@media screen and (min-width:1000px){
+
+.quoteTitle {
+  padding: 80px 0 0 0;
+  font-size:1.6em;
 }
 
+.quote {
+  font-size:1.2em;
+}
+.carousel {
+  display:block;
+  margin:auto;
+  width:100%
+}
+.user {
+  float:left;
+  width:30%;
+}
+
+.userTxt {
+  float:right;
+  width:70%;
+}
+}
 
 </style>
 
@@ -496,67 +527,66 @@ ul li a.footTxt {
 
 
     <div class="carousel-item sliderBg1 white-text" href="#one!">
-            <div class="row">
-                <div class="col s12 m4 l4">
+                <div class="user">
                   <div class="userPic"><i class="fa fa-user-circle"></i></div>
                   <div class="userName">John Doe</div>
                   <div class="userRole">CEO</div>
                 </div>
-                <div class="col s12 m8 l8">
-                  <br><br><br><br>
+        <div class="userTxt">
                   <span class="quoteTitle">Gurus of Salesforce Implemntation</span><br>
                   <span class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ad obcaecati aliquid ratione dolore blanditiis natus optio dolorem harum maxime cum aperiam ipsam accusamus, illum praesentium numquam tempora reiciendis sit quasi adipisci nihil aut! Expedita aperiam aliquid modi aut alias!
                   </span>
                 </div>
-              </div>
+
     </div>
     
     <div class="carousel-item sliderBg2 white-text" href="#two!">
-            <div class="row">
-                <div class="col s12 m4 l4">
+                <div class="user">
                   <div class="userPic"><i class="fa fa-user-circle"></i></div>
                   <div class="userName">John Doe</div>
                   <div class="userRole">CEO</div>
                 </div>
-                <div class="col s12 m8 l8">
-                  <br><br><br><br>
+        <div class="userTxt">
                   <span class="quoteTitle">Gurus of Salesforce Implemntation</span><br>
                   <span class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ad obcaecati aliquid ratione dolore blanditiis natus optio dolorem harum maxime cum aperiam ipsam accusamus, illum praesentium numquam tempora reiciendis sit quasi adipisci nihil aut! Expedita aperiam aliquid modi aut alias!
                   </span>
                 </div>
-              </div>
     </div>
     
     <div class="carousel-item sliderBg1 white-text" href="#three!">
-            <div class="row">
-                <div class="col s12 m4 l4">
-                  <div class="userPic"><i class="fa fa-user-circle"></i></div>
-                  <div class="userName">John Doe</div>
-                  <div class="userRole">CEO</div>
-                </div>
-                <div class="col s12 m8 l8">
-                  <br><br><br><br>
-                  <span class="quoteTitle">Gurus of Salesforce Implemntation</span><br>
-                  <span class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ad obcaecati aliquid ratione dolore blanditiis natus optio dolorem harum maxime cum aperiam ipsam accusamus, illum praesentium numquam tempora reiciendis sit quasi adipisci nihil aut! Expedita aperiam aliquid modi aut alias!
-                  </span>
-                </div>
-              </div>
+<div class="user">
+  <div class="userPic">
+    <i class="fa fa-user-circle"></i>
+  </div>
+  <div class="userName">John Doe</div>
+  <div class="userRole">CEO</div>
+</div>
+<div class="userTxt">
+  <span class="quoteTitle">Gurus of Salesforce Implemntation</span>
+  <br>
+  <span class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ad obcaecati aliquid ratione dolore blanditiis natus optio
+    dolorem harum maxime cum aperiam ipsam accusamus, illum praesentium numquam tempora reiciendis sit quasi adipisci nihil
+    aut! Expedita aperiam aliquid modi aut alias!
+  </span>
+</div>
     </div>
     
     <div class="carousel-item sliderBg2 white-text" href="#four!">
-            <div class="row">
-                <div class="col s12 m4 l4">
-                  <div class="userPic"><i class="fa fa-user-circle"></i></div>
-                  <div class="userName">John Doe</div>
-                  <div class="userRole">CEO</div>
-                </div>
-                <div class="col s12 m8 l8">
-                  <br><br><br><br>
-                  <span class="quoteTitle">Gurus of Salesforce Implemntation</span><br>
-                  <span class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ad obcaecati aliquid ratione dolore blanditiis natus optio dolorem harum maxime cum aperiam ipsam accusamus, illum praesentium numquam tempora reiciendis sit quasi adipisci nihil aut! Expedita aperiam aliquid modi aut alias!
-                  </span>
-                </div>
-              </div>
+<div class="user">
+  <div class="userPic">
+    <i class="fa fa-user-circle"></i>
+  </div>
+  <div class="userName">John Doe</div>
+  <div class="userRole">CEO</div>
+</div>
+<div class="userTxt">
+  <span class="quoteTitle">Gurus of Salesforce Implemntation</span>
+  <br>
+  <span class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ad obcaecati aliquid ratione dolore blanditiis natus optio
+    dolorem harum maxime cum aperiam ipsam accusamus, illum praesentium numquam tempora reiciendis sit quasi adipisci nihil
+    aut! Expedita aperiam aliquid modi aut alias!
+  </span>
+</div>
     </div>
     </div>
 
