@@ -7,9 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Cymetrix Home Page</title>
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="css/materialize.min.css">
 
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="css/materialize.min.css">
+  <!-- Home page text scroller -->
+  <link rel="stylesheet" href="css/scrollTxt.css">
 
   <!--Import Google Icon Font--> 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -227,7 +229,7 @@ img.parnterLogo {
 
 .card {
   border-radius: 8px;
-  min-height:300px;
+
 }
 @media screen and (max-width:670px){
   .card {
@@ -372,6 +374,24 @@ ul li a.footTxt {
 }
 }
 
+.highlightCard {
+  background-color:#eaeff1;
+}
+
+.highlightCard .card-content .card-title {
+  font-size: 1.2em;
+  font-weight: 600;
+  color:#369;
+  padding:0px 0 0px 0;
+  margin:2px 0;
+}
+
+.highlightCard .card-content p {
+  color:#817f7f;
+}
+
+
+
 </style>
 
 </head>
@@ -410,13 +430,36 @@ ul li a.footTxt {
     <img class="imgHero" src="img/salesforce_partner.png">
   </div>
 
-  <div class="col s0 m4 hide-on-med-and-down white-text">
-       
-       <p class="topTxt">Reduced client on-boarding time by 50%<br>
-        Doubled product offering in record time<br>
-        Improved Volumes and SLAs by 30%<br>
-        Increase in closed sales by 30%<br>
-        Increase in customer wallet share by 25%</p>
+
+
+<div class="col s0 m4 hide-on-med-and-down">
+<div class="microsoft containerBox">
+  <p class="marquee">
+    <a href="#">Reduced client on-boarding time by 50%</a>
+    <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada quis nisl quis suscipit.</P>
+  <br>
+
+  <p class="marquee">
+    <a href="#">Doubled product offering in record time</a>
+    <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada quis nisl quis suscipit.</P>
+  <br>
+
+  <p class="marquee">
+    <a href="#">Improved Volumes and SLAs by 30%</a>
+    <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada quis nisl quis suscipit.</P>
+  <br>
+
+  <p class="marquee">
+    <a href="#">Increase in closed sales by 30%</a>
+    <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada quis nisl quis suscipit.</P>
+  <br>
+
+  <p class="marquee">
+    <a href="#">Increase in customer wallet share by 25%</a>
+    <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada quis nisl quis suscipit.</P>
+  <br>
+</div>
+
   </div>
 
 </div>
@@ -455,6 +498,53 @@ ul li a.footTxt {
 
 </header>
 
+
+<div class="row hide-on-large-only">
+
+<div class="col s12 m6">
+
+  <div class="card highlightCard">
+  <div class="card-content">
+    <span class="card-title">Reduced client on-boarding time by 50%</span>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada quis nisl quis suscipit. </p>
+  </div>
+</div>
+
+
+<div class="card highlightCard">
+  <div class="card-content">
+    <span class="card-title">Improved Volumes and SLAs by 30%</span>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada quis nisl quis suscipit.</p>
+  </div>
+</div>
+
+<div class="card highlightCard">
+  <div class="card-content">
+    <span class="card-title">Increase in customer wallet share by 25%</span>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada quis nisl quis suscipit.</p>
+  </div>
+</div>
+
+
+</div>
+<div class="col s12 m6">
+
+  <div class="card highlightCard">
+    <div class="card-content">
+      <span class="card-title">Increase in closed sales by 30%</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada quis nisl quis suscipit..</p>
+    </div>
+  </div>
+
+  <div class="card highlightCard">
+    <div class="card-content">
+      <span class="card-title">Doubled product offering in record time</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada quis nisl quis suscipit.</p>
+    </div>
+  </div>
+
+</div>
+</div>
 
 
 <div class="alt_color">
@@ -713,7 +803,7 @@ ul li a.footTxt {
     </div>
   </div>
 
-
+  
 
 
   </div>
