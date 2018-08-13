@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Cymetrix Home Page</title>
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="css/materialize.min.css">
+
+  <!-- Home page text scroller -->
+  <link rel="stylesheet" href="css/scrollTxt.css">
+
+  <!--Import Google Icon Font--> 
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!--Open Sans google font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+  <!--Font Awesome CDN -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"\>
+
+
+<style>
+
+@media screen and (min-width:1000px){
+  nav.navHeight {
+    height:80px;
+  }
+}
+
+img {
+  max-width:100%;
+}
+
+.menuIcon {
+  color:#336699;
+}
+
+img.mobileMenu {
+  display:block;
+  margin:auto;
+  padding:20px 0 20px 0;
+  width:80%;
+}
+
+
+  header {
+    background-color:#e1e8f0;
+  }
+
+.topImg{
+  background: url(img/hero_04.jpg);
+  background-size:cover;
+  background-color:#8fabcc;
+  background-position:left center;
+  min-height:600px;
+}
+
+header .headTxt {
+  font-family: 'open sans', arial, verdana, sans-serif;
+  line-height: 1.2;
+  padding: 260px 0 0 0;
+}
+@media screen and (min-width:1000px){
+  header .headTxt {
+    padding:260px 0 0 0;
+  }
+}
+@media screen and (max-width:670px){
+  header .headTxt {
+    padding:320px 0 0 0;
+  }
+}
+
+header .headTxt .col .line1 {
+  font-size:2.4rem;
+  color:#eaeaea;
+}
+@media screen and (max-width:670px){
+  header .headTxt .col .line1 {
+    font-size: 1.8rem;
+    color:#c9c6c6;
+  }
+}
+
+header .headTxt .line2 {
+  font-family: arial, verdana, sans-serif;
+  font-size:3.6rem;
+  color:#ffffff;
+}
+@media screen and (max-width:670px){
+  header .headTxt .line2 {
+  font-size:2rem;
+  }
+}
+header .headTxt .line3 {
+  font-size:2.2rem;
+  color:#c9c6c6;
+}
+@media screen and (max-width:670px){
+  header .headTxt .line3 {
+    font-size:1.6rem;
+  }
+}
+
+
+.topTxt {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+
+nav {
+    background-color:#fff;
+    opacity:.8;
+}
+
+nav ul li a.topLinks {
+  color:#7e7e7e;
+}
+
+img.imgHero {
+  border-radius: 3px;
+  width:300px;
+  display:block;
+  margin:30px 10px;
+}
+
+@media screen and (max-width:670px){
+  img.imgHero {
+    display: block;
+    margin:30px auto;
+  }
+}
+
+
+
+  .imgPadding {
+    padding:60px 0 0 0;
+  }
+
+
+.bg_color{
+  background-color: #fff;
+  padding:60px 0px 50px 0px;
+  font-family: arial, Verdana, sans-serif;
+}
+
+.bg_color .txtHead {
+  font-weight: 400;
+  color:#336699;
+  padding:20px 0 5px 0;
+  margin:0;
+  font-size: 1.2rem;
+  line-height: 1.1;
+}
+
+.bg_color .txt {
+  font-weight: 100;
+  color:#9f9f9f;
+  font-size:1.1rem;
+  padding:0;
+  margin:0;
+  line-height: 1.2;
+}
+
+.alt_color{
+  background-color: #dee3ee;
+  padding:60px 0px 50px 0px;
+}
+
+img.logo {
+  padding:8px 0 0 10px;
+  width:80%;
+}
+
+img.parnterLogo {
+  display:block;
+  margin:auto;
+}
+  @media screen and (max-width:670px){
+    img.parnterLogo{
+      width:260px;
+      padding:4 0;
+      margin:4 0;
+    }
+  }
+
+
+
+.sectionTitle {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 2.6rem;
+  color:#369;
+  font-weight: 100;
+  text-align: center;
+  margin: 0 0 2px;
+  padding: 0 0px 0px;
+  line-height: 1.1;
+}
+
+.subHead {
+  text-align: center;
+  color: #817f7f;
+  margin:0 0 10px;
+  padding:10px 0 30px;
+  font-size:1.3rem;
+  line-height: 1.3;
+}
+
+.cardTxt {
+  font-size: .9rem;
+  line-height: 1.5;
+  color:#7e7e7e;
+  padding: 0 0 10px;
+}
+.cardTitleTxt {
+  font-size:1.2rem !important;
+  line-height: .8rem;
+  color:#7e7e7e;
+}
+
+.cardImg {
+  display:block;
+  margin:auto;
+  padding:20px 0 0 0;
+}
+
+
+.card {
+  border-radius: 8px;
+}
+@media screen and (max-width:670px){
+  .card {
+  margin:30px 0 0px;
+}
+  }
+
+.card .service {
+  min-height:220px;
+}
+
+
+.footerBg {
+  background-color:#d2dfe4;
+}
+
+.footerLogo {
+  width:200px;
+  padding:20px 0 0 20px;
+}
+
+
+footer .container .row .col div i {
+  width:30px;
+  font-size: 23px;
+  padding: 14px 0 0 0px;
+
+}
+
+footer .container .row .col a {
+  width:240px;
+  display:inline-block;
+  color:#336699;
+  padding:6px 0 0 14px;
+}
+
+
+footer .container .row .col div {
+  font-size: 1.3rem;
+  color: rgb(94, 94, 95);
+}
+
+ul li a.footTxt {
+  line-height: 1.6;
+  color: rgb(94, 94, 95);
+}
+
+.footerTitle {
+  font-size: 1.1rem;
+  border-bottom: 1px solid #ccc;
+  padding:14px 0 6px;
+  margin: 0 0 10px 0;
+}
+
+
+
+<!-- Carousel styles-->
+
+.middle-indicator{
+   position:absolute;
+   top:50%;
+   }
+  .middle-indicator-text{
+   font-size: 4.2rem;
+  }
+  a.middle-indicator-text{
+    color:white !important;
+  }
+.content-indicator{
+    width: 64px;
+    height: 64px;
+    background: none;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px; 
+  }
+    .indicators{
+  	/* visibility: hidden; */
+  }
+
+.sliderBg1
+  {
+    background-color:#92a5b8;
+  }
+
+.sliderBg2
+  {
+    background-color:#77aed8;
+  }
+
+.userPic { font-size: 12rem;}
+.userName { font-size: 2rem;}
+.userRole { font-size:1rem;}
+  @media screen and (max-width:1000px){
+
+.userPic { font-size: 4rem;}
+.userName { font-size: 1.2rem;}
+.userRole { font-size:1rem;}
+
+  }
+
+.quoteTitle {
+  font-family: 'open sans', Arial, Helvetica, sans-serif;
+  font-size:1.2em;
+  font-weight:600;
+  display:block;
+  margin:auto;
+  line-height: 1.2;
+  text-align:left;
+  max-width: 70%;
+  padding: 20px 0 0 0;
+}
+.quote {
+  text-align:left;
+  font-size:1rem;
+  line-height: 1.2;
+  font-weight: 400;
+  display:block;  
+  max-width: 70%;
+  margin:auto;
+}
+
+@media screen and (min-width:1001px){
+
+.quoteTitle {
+  padding: 80px 0 0 0;
+  font-size:1.6em;
+}
+
+.quote {
+  font-size:1.2em;
+}
+.carousel {
+  display:block;
+  margin:auto;
+  width:100%
+}
+.user {
+  float:left;
+  width:30%;
+}
+
+.userTxt {
+  float:right;
+  width:70%;
+}
+}
+
+.highlightCard {
+  background-color:#eaeff1;
+}
+
+.highlightCard .card-content .card-title {
+  font-size: 1.2em;
+  font-weight: 600;
+  color:#369;
+  padding:0px 0 0px 0;
+  margin:2px 0;
+}
+
+.highlightCard .card-content p {
+  color:#817f7f;
+}
+
+
+#map_container {
+  position: relative;
+  padding-top: 50%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#map {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="nav-wraper black-text z-depth-0 navHeight">
+  <div class="container">
+
+    <a href="#" class="brand-logo"><img class="logo" src="img/logo_cymetrix1.png"></a>
+
+    <a href="#" class="sidenav-trigger" data-target="mobile-links">
+      <i class="material-icons menuIcon">menu</i>
+    </a>
+
+
+  <!-- for medium and large screens -->
+  <ul class="right hide-on-med-and-down">
+    <li><a href="#" class="topLinks">Home</a></li>
+    <li><a href="#" class="topLinks">Services</a></li>
+    <li><a href="#" class="topLinks">Capabilities</a></li>
+    <li><a href="#" class="topLinks">Solutions</a></li>
+    <li><a href="#" class="topLinks">Case Studies</a></li>
+    <li><a href="#" class="topLinks">Blog</a></li>
+    <li><a href="#" class="topLinks">Contact Us</a></li>
+  </ul>
+
+
+<div class="headTxt row">
+</div>
+
+<div class="row"></div>
+  <div class="col" s12 m6">
+
+  </div>
+  <div class="col s12 m6 l4 xl2"></div>
+
+</div>
+
+<div class="headTxt">
+  
+</div>
+
+
+  </div>
+</nav>
+
+
+  <!-- for small screens -->
+  <ul class="sidenav" id="mobile-links">
+    <li><img src="img/logo_cymetrix1.png" class="mobileMenu"></li>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Capabilities</a></li>
+    <li><a href="#">Solutions</a></li>
+    <li><a href="#">Case Studies</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Contact Us</a></li>
+  </ul>
+
+
+
+
+</header>
+
+
+<div class="topImg"></div>
+
+
+<div class="alt_color">
+  <div class="container">
+
+    <div class="sectionTitle">Contact Us</div>
+    <p class="subHead"> We offer business transformation solutions to help businesses remain agile and stay ahead of their competition.</p>
+
+
+    <div class="row">
+
+    <div class="col s12 m6 l4">
+        <div class="card service z-depth-3">
+          <!-- <div class="card-image">
+            <img src="images/sample-1.jpg">
+          </div> -->
+          <img src="img/speed_analysis_100.png" class="cardImg">
+          <div class="card-content">
+            <span class="card-title">Spend Analysis</span>
+            <p class="cardTxt">Cymetrix provides spend analysis service helping clients identify new areas of savings in procurements for driving successful
+            sourcing plans.</p>
+          </div>
+        </div>
+    </div>
+
+    <div class="col s12 m6 l4">
+      <div class="card z-depth-3">
+        <!-- <div class="card-image">
+          <img src="images/sample-1.jpg">
+        </div> -->
+        <img src=img/business_inteligence1.png class="cardImg">
+        <div class="card-content">
+          <span class="card-title">Business Intelligence</span>
+          <p class="cardTxt">Cymetrix delivers Business Intelligence solutions to turn raw data into a business opportunity through data aggregation,
+          transformation.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m6 l4">
+      <div class="card z-depth-3">
+        <!-- <div class="card-image">
+          <img src="images/sample-1.jpg">
+        </div> -->
+        <img src=img/clouds-100.png class="cardImg">
+        <div class="card-content">
+          <span class="card-title">Salesforce Consulting</span>
+          <p class="cardTxt">Cymetrix has end-to-end capability for complete Salesforce consulting, cloud implementation, customisation, and integration.</p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="bg_color">
+  <div class="container">
+    <div class="sectionTitle">Find Us</div>
+    <p class="subHead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada quis nisl quis suscipit.</p>
+  </div>
+</div>
+
+
+
+
+
+<div id="map_container">
+  <div id="map"></div>
+</div>
+
+
+
+
+
+
+
+        <footer class="page-footer" style="background-color: #d3dadf88">
+          <div class="container">
+            <div class="row">
+              <div class="col l4 m4 s12">
+                <img src="img/logo_cymetrix2.png" class="footerLogo">
+                <p class="footerContact">
+                  <div><i class="fa fa-phone-square 2x" aria-hidden="true"></i> +1-408-396-6570</div>
+                  <div><i class="fa fa-envelope-o" aria-hidden="true"></i> info@cymetrixsoft.com</div>
+
+</p>
+              </div>
+              <div class="col l2 m2 s12"><br><br><br>
+                <ul>
+                  <li><a class="footTxt" href="#">Home</a></li>
+                  <li><a class="footTxt" href="#">About Cymetrix</a></li>
+                  <li><a class="footTxt" href="#">Our Success Stories</a></li>
+                  <li><a class="footTxt" href="#">Blog</a></li>
+                  <li><a class="footTxt" href="#">Contact Us</a></li>
+                </ul>
+              </div>
+
+
+                <div class="col l6 m2 s12"><br><br><br>
+                <div class="footerTitle">Salesforce Services</div>
+                  <a class="footTxt" href="#">Implementation</a>
+                  <a class="footTxt" href="#">Integration</a>
+                  <a class="footTxt" href="#">Customization</a>
+                  <a class="footTxt" href="#">Support and Maintenance</a>
+                  <a class="footTxt" href="#">Force.com Developement</a>
+                  <a class="footTxt" href="#">Force.com Developement</a>
+                </ul>
+              </div>
+
+
+
+
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+              © 2018 Cymetrix
+              <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+
+<!-- Minified jQuery 3.3.1 -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="js/materialize.min.js"></script>
+
+<!-- Google map -->
+<script src="js/map.js"></script>
+
+
+
+<script>
+  $(document).ready(function () {
+    $('.sidenav').sidenav();
+  })
+
+            // start carrousel
+            $('.carousel.carousel-slider').carousel({
+              fullWidth: true,
+              indicators: true
+            });
+
+          setInterval(function () {
+            $('.carousel').carousel('next');
+          }, 5000);
+
+          // move next carousel
+          $('.moveNextCarousel').click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            $('.carousel').carousel('next');
+          });
+
+          // move prev carousel
+          $('.movePrevCarousel').click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            $('.carousel').carousel('prev');
+          });
+
+        </script>
+
+
+</body>
+
+</html>
